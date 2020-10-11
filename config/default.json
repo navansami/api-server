@@ -1,0 +1,5 @@
+{
+	"mongoURI":"mongodb+srv://sam:<password>@cluster0.sr039.mongodb.net/<dbname>?retryWrites=true&w=majority",
+	"pw": "access123",
+	"dbname": "contacts"
+}
