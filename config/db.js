@@ -4,6 +4,7 @@ const config = require('config');
 
 const connectAtlas = config
 		.get('mongoURI')
+		.replace('<user>',config.get('user'))
 		.replace('<password>',config.get('pw'))
 		.replace('<dbname>',config.get('dbname'));
 
