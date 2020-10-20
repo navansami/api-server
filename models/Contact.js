@@ -32,7 +32,7 @@ const ContactSchema = new mongoose.Schema({
 	},
 	"image": {
 		type: String,
-		default: 'https://icon2.cleanpng.com/20180421/dxq/kisspng-silhouette-anonymity-clip-art-suit-clipart-5adaba4db31ac9.4969923415242839817336.jpg'
+		default: 'https://toppng.com/uploads/preview/tux-linux-logo-start-button-icon-linux-11562927335gdm2cpaczy.png'
 	}
 });
 
