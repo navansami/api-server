@@ -4,7 +4,6 @@ const ContactSchema = new mongoose.Schema({
 	"name": {
 		type: String,
 		required: true,
-		unique: true
 	},
 	"extension": {
 		type: Number,
@@ -13,7 +12,6 @@ const ContactSchema = new mongoose.Schema({
 	"mobile": {
 		type: String,
 		required: false,
-		unique:false
 	},
 	"email": {
 		type: String,
