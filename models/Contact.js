@@ -13,6 +13,7 @@ const ContactSchema = new mongoose.Schema({
 	"mobile": {
 		type: String,
 		required: false,
+		unique:false
 	},
 	"email": {
 		type: String,
