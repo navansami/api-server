@@ -12,11 +12,11 @@ const ContactSchema = new mongoose.Schema({
 	},
 	"mobile": {
 		type: String,
-		required: true,
+		required: false,
 	},
 	"email": {
 		type: String,
-		required: true
+		required: false
 	},
 	"department": {
 		type: String,
